@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #a90609;
+    --cor1: #FFD700;
+    --cor2: #FF0000;
+    --cor3: #000124;
+    --cor4: #B39B2E;
+
+    --font-titulo: "Merriweather", serif;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--font-titulo);
+}
+
+header{
+    background-color: var(--cor3);
+    height: 220px;
+}
+
+header img{
+    margin: 30px 10px 10px 50px;
+}
+
+header h1{
+    color: var(--cor1);
+    font-size: 3em;
+    text-align: center;
+    margin-top: -110px;
+}
+
+header nav{
+    margin: 50px 0px 0px 50px;
+}
+
+header nav a{
+    color: var(--cor2);
+    background-color: var(--cor1);
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    
+    color: var(--cor1);
+    background-color: var(--cor2);
+    transition-duration: .5s;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h1{
+    color: var(--cor1);
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+main h2{
+    margin: 30px 0px 10px 0px;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px black;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main p.godric{
+    min-width: none;
+    max-width: 700px;
+    padding-right: 130px;
+}
+
+main div.godric{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -110px;
+    margin-bottom: 0px;
+}
+
+main div.simbolos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main ul.simbolos{
+    columns: 2;
+    text-align: center;
+}
+
+main picture.local{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: none;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: var(--cor3);
+    height: 200px;
+}
+
+footer div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 50px 100px 0px;
+}
+
+footer nav{
+    padding: 20px;
+}
+
+footer nav a{
+    padding: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: var(--cor1);
+    background-color: var(--cor2);
+    margin-right: 10px;
+}
+
+footer nav a:hover{
+    background-color: white;
+    color: var(--cor2);
+    transition-duration: .5s;
+}
