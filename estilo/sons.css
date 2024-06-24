@@ -100,13 +100,18 @@ section p{
     text-indent: 30px;
 }
 
-section#fundador > p{
-    width: 500px;
+main section#fundador img{
+    margin-right: 10px;
 }
 
-section#fundador > img{
-    position: absolute;
-    transform: translate(550px, -125px);
+main section#fundador div{
+    text-align: right;
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+
+main section#fundador p{
+    padding-right: 160px;
 }
 
 section#simbolo > p{
