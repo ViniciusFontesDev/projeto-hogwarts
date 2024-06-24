@@ -126,9 +126,11 @@ section#simbolo{
     margin-top: 25px;
 }
 
-main > section#comunal > img{
-    transform: translate(-2vw, 1vh);
-
+main section#comunal{
+    background: var(--cor00) url(../imagem/salacomunasonserina.png) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 236px;
 }
 
 main > section#qualidades> ul{
