@@ -85,9 +85,7 @@ main p{
 }
 
 main p.godric{
-    min-width: none;
-    max-width: 700px;
-    padding-right: 130px;
+    margin-right: 160px;
 }
 
 main div.godric{
@@ -95,6 +93,28 @@ main div.godric{
     justify-content: flex-end;
     margin-top: -110px;
     margin-bottom: 0px;
+}
+
+
+
+
+main div.simbolos{
+    height: 200px;
+    background: url("../grifinoria/leaodbl-jpeg.jpg") no-repeat center center;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+main div.simbolodois{
+    height: 200px;
+    background: url("../grifinoria/va-jpeg.jpg") no-repeat center center;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+main p.simbolo{
+    text-align: center;
+    text-indent: 0px;
 }
 
 main div.simbolos{
@@ -114,14 +134,11 @@ main picture.local{
     margin-bottom: 10px;
 }
 
-main aside{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    min-width: none;
-    max-width: 1000px;
-    margin-bottom: 50px;
+main ul#membros{
+    list-style: none;
+    text-align: center;
 }
+
 
 footer{
     background-color: var(--cor3);
