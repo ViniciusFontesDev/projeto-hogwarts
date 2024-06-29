@@ -102,20 +102,25 @@ main > div.fundador > img.fundador{
     transform: translate(60vw, -180px);
 }
 
-main > section.simbolo{
+main > div#simbolo{
+    position: relative;
+    margin-top: 100px;
+}
+
+main > div#simbolo > section.simbolo{
     position: absolute;
-    top: 660px;
-    left: calc(50/100 * 100vw);
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main > section.simbolo > img.simbolo{
+main > div#simbolo > section.simbolo > img.simbolo{
     width: 280px;
     box-shadow: 1px 1px 2px black;
 }
 
 main > h2.loc{
-    margin-top: 190px;
+    margin-top: 200px;
 }
 
 section.loc > p{
@@ -138,20 +143,23 @@ ul.qualidade{
     text-align: justify;
 }
 
-main > section#iframeluf{
+div#iframeluf{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+main > div#iframeluf > section#iframeluf{
     position: absolute;
-    top: 1375px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main > section#iframeluf > iframe{
+main > div#iframeluf > section#iframeluf > iframe{
     width: 400px;
 }
 
-main > h2.cult{
-    margin-top: 200px;
-}
 
 
 
