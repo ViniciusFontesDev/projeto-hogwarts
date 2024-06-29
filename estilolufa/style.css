@@ -97,7 +97,62 @@ main > div.fundador > p{
 
 main > div.fundador > img.fundador{
     border-radius: 50%;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 2px black;
     position: absolute;
     transform: translate(60vw, -180px);
 }
+
+main > section.simbolo{
+    position: absolute;
+    top: 660px;
+    left: calc(50/100 * 100vw);
+    transform: translate(-50%, -50%);
+}
+
+main > section.simbolo > img.simbolo{
+    width: 280px;
+    box-shadow: 1px 1px 2px black;
+}
+
+main > h2.loc{
+    margin-top: 190px;
+}
+
+section.loc > p{
+    color: var(--cor00);
+    text-shadow: 1px 1px 1px black;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+
+section.loc{
+    background: url(../imglufa/comunalufa.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul.qualidade{
+    margin: 0px 20px 0px 40px;
+    text-align: justify;
+}
+
+main > section#iframeluf{
+    position: absolute;
+    top: 1375px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section#iframeluf > iframe{
+    width: 400px;
+}
+
+main > h2.cult{
+    margin-top: 200px;
+}
+
+
+
+
