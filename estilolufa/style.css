@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+:root{
+    --cor00: #FFDB00;
+    --cor01: #000000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    background-color: white;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor00));
+}
+
+header > img{
+    padding: 10px;
+}
+
+header > h1{
+    text-align: center;
+    color: var(--cor00);
+    margin-top: -100px;
+    padding-bottom: 60px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > span#burguer{
+    background-color: rgb(22, 22, 22);
+    color: var(--cor00);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
+}
+
+header > menu > ul > li > a{
+    text-decoration: none;
+    background-color: #ffdd00ac;
+    color: var(--cor01);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    transition: padding .8s;
+}
+
+header > menu > ul > li > a:hover{
+    background-color: black;
+    color: var(--cor00);
+    transition: background-color .8s, color .8s;
+}
+
+header > menu > ul > li > a:focus-within{
+    background-color: white;
+}
+
+main > h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--cor00);
+}
+
+main > h2{
+    margin: 30px 0px 10px 20px;
+}
+
+main > p{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+div.fundador{
+    position: relative;
+}
+
+main > div.fundador > p{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 0px 20px 0px 20px;
+    width: 50vw;
+}
+
+main > div.fundador > img.fundador{
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+    position: absolute;
+    transform: translate(60vw, -180px);
+}
