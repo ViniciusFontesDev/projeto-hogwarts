@@ -145,8 +145,8 @@ ul.qualidade{
 
 div#iframeluf{
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 420px;
 }
 
 main > div#iframeluf > section#iframeluf{
@@ -157,8 +157,16 @@ main > div#iframeluf > section#iframeluf{
 }
 
 main > div#iframeluf > section#iframeluf > iframe{
-    width: 400px;
+    width: 380px;
+    height: 380px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -192,9 +200,10 @@ footer img{
     box-sizing: border-box;
     box-shadow: 1px 1px 2px black;
     width: 90px;
+    margin-left: 5px;
 }
 
-
-
-
-
+footer img:hover{
+    transform: translate(0px, -5px);
+    border: 1px solid white;
+}

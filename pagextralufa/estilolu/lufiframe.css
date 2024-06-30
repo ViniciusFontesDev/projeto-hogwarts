@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*Estilo somente para o iframe presente na página da lufa lufa*/
+
+:root{
+    --cor02: #FFDB00;
+    --cor03: #000000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor02);
+}
+
+h1{
+    padding-top: 5px;
+    text-align: center;
+    color: var(--cor03);
+    text-shadow: 1px 1px 2px black;
+}
+
+nav.perso1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav.perso2{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: var(--cor03);
+    color: var(--cor02);
+    padding: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.700);
+    transition: background-color .5;
+}
+
+div#iframe{
+    position: relative;
+    margin-top: 120px;
+}
+
+section#iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
