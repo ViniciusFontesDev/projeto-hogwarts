@@ -206,4 +206,5 @@ footer img{
 footer img:hover{
     transform: translate(0px, -5px);
     border: 1px solid white;
+    transition: transform .5s, border .5s;
 }
