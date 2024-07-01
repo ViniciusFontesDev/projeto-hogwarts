@@ -67,6 +67,11 @@ header > menu > ul > li > a:focus-within{
     background-color: white;
 }
 
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
 main > h1{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -160,19 +165,6 @@ main > div#iframeluf > section#iframeluf > iframe{
     width: 380px;
     height: 380px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 section#cult p{
     padding: 5px 0px;
