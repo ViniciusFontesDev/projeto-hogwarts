@@ -62,6 +62,10 @@ Até 768px*/
         margin-top: 10px;
     }
 
+    main{
+        overflow: hidden;
+    }
+
     main aside img{
         max-width: 100px;
     }
