@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*Media query grif*/
+
+@media screen and (max-width: 768px){
+    header img{
+        width: 100px;
+        margin: 10 0px 0px 50px;
+    }
+
+    header h1{
+        text-align: right;
+        margin-top: -90px;
+        margin-right: 50px;
+    }
+
+    header nav a{
+        margin-right: 0px;
+    }
+
+    footer nav{
+        text-align: center;
+        padding: 15px 0px 0px 0px;
+    }
+
+    footer nav a{
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 0px;
+    }
+
+    footer div.footergrif{
+        display: block;
+        text-align: center;
+    }
+}
