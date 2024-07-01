@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+@media screen and (max-width: 768px) {
+
+    header{
+        width: 100%;
+    }
+
+    header > nav > a > img{
+        height: 70px;
+    }
+
+    main section.membro{
+        display: block;
+        text-align: center;
+    }
+
+    main img.membro{
+        width: 120px;
+        margin: 5px 0px 10px 40px;
+    }
+
+    main section#sectionrelativeiframe{
+        border: 1px solid var(--cor00);
+    
+        position: relative;
+        margin-top: 120px;
+        margin-bottom: 110px;
+    }
+
+    main iframe.membro{
+        border: 1px solid var(--cor00);
+    
+        width: 375px;
+        height: 187.5px;
+    }
+}
