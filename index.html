@@ -7,7 +7,8 @@
 
     <link rel="shortcut icon" href="imagens/brasaohogwarts-130.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/index/media-query.css" media="">
 
 </head>
 <body>
@@ -18,20 +19,31 @@
             <img src="imagens/brasaohogwarts-130.png" alt="Logo de Hogwarts">
         </picture>
 
-
-
-        <h1>Casas de Hogwarts</h1>
+        <div id="headerh1">
+            <h1>Casas</h1>
+            <h1>de</h1>
+            <h1>Hogwarts</h1>
+        </div>
+        
         <nav>
             <a href="grifinoria.html" target="_self" rel="next" class="grif">Grifinória</a>
             <a href="lufa.html" target="_self" rel="next" class="luf">Lufa-Lufa</a>
             <a href="corvinal.html" target="_self" rel="next" class="corv">Corvinal</a>
             <a href="sonserina.html" target="_self" rel="next" class="sons">Sonserina</a>
         </nav>
+
+        <div class="mobile">
+            <a href="grifinoria.html" target="_self" rel="next" class="grif">Grifinória</a>
+            <a href="lufa.html" target="_self" rel="next" class="luf">Lufa-Lufa</a>
+            <a href="corvinal.html" target="_self" rel="next" class="corv">Corvinal</a>
+            <a href="sonserina.html" target="_self" rel="next" class="sons">Sonserina</a>
+        </div>
+
     </header>
 
     <main>
         <h1>Criação de Hogwarts</h1>
-        <p>A Escola de Magia e Bruxaria de Hogwarts foi fundada há mais de mil anos, por volta do século X, por quatro grandes bruxos e bruxas da época: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw e Salazar Slytherin. Cada um desses fundadores contribuiu com suas próprias habilidades, filosofias e valores para a escola, e suas influências moldaram as quatro casas de Hogwarts.</p>
+        <p class="criacao">A Escola de Magia e Bruxaria de Hogwarts foi fundada há mais de mil anos, por volta do século X, por quatro grandes bruxos e bruxas da época: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw e Salazar Slytherin. Cada um desses fundadores contribuiu com suas próprias habilidades, filosofias e valores para a escola, e suas influências moldaram as quatro casas de Hogwarts.</p>
 
     <section id="grif">
         <h2>Godric Gryffindor</h2>
@@ -82,7 +94,7 @@
             </div>
         </section>
         
-        <article>
+        <article class="textin">
             <p>A divergência de opiniões entre os fundadores, especialmente entre Godric Gryffindor e Salazar Slytherin, sobre a admissão de alunos nascidos trouxas (aqueles nascidos de pais não-mágicos) levou eventualmente à saída de Slytherin da escola. Antes de partir, Slytherin construiu secretamente a Câmara Secreta, na qual ele deixou um basilisco com a intenção de purgar a escola de estudantes não-puros.
             </p>
             <p>Hogwarts continuou a crescer e evoluir ao longo dos séculos, tornando-se uma das instituições mais prestigiadas do mundo bruxo. A escola é conhecida por seu castelo imponente, que abriga muitos segredos, passagens ocultas e mistérios, refletindo a rica história e as contribuições dos quatro fundadores.
@@ -93,8 +105,11 @@
             <h2 class="bandeiras">Quer saber mais sobre as casas?</h2>
         <aside>
             <a href="grifinoria.html" target="_self" rel="next" class="bgrif"><img src="imagens/grifinoria-200-png.png" alt="Bandeira da Grifinória"></a>
+
             <a href="lufa.html" target="_self" rel="next" class="bluf"><img src="imagens/lufalufa-200-png.png" alt="Bandeira da Lufa-Lufa"></a>
+            
             <a href="corvinal.html" target="_self" rel="next" class="bcorv"><img src="imagens/corvinal-200-png.png" alt="Bandeira da Corvinal"></a>
+
             <a href="sonserina.html" target="_self" rel="next" class="bsons"><img src="imagens/sonserina-200-png.png" alt="Bandeira da Sonserina"></a>
         </aside>
     </main>
@@ -107,7 +122,7 @@
             <a href="corvinal.html" target="_self" rel="next">Corvinal</a>
         </nav>
 
-        <div><img src="imagens/brasaohogwarts-130.png" alt="Logo de Hogwarts"></div>
+        <div class="footer"><img src="imagens/brasaohogwarts-130.png" alt="Logo de Hogwarts"></div>
     </footer>
 
 </body>

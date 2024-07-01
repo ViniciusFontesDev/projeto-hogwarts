@@ -44,11 +44,15 @@ header h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0);
 }
 
-header nav{
+header > nav{
     padding: 0px 0px 20px 20px;
 }
 
-header nav a{
+header div.mobile{
+    display: none;
+}
+
+header > nav > a{
     text-decoration: none;
     font-size: 1.1em;
     color: white;
