@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*PARA DESKTOP*/
+
+@media screen and (min-width: 800px) {
+    header > img{
+        padding: 10px;
+        margin-left: 23%;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul{
+        text-align: center;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        margin-right: 80px;
+    }
+
+    main{
+        width: 800px;
+        background-color: white;
+    }
+        
+    main > div.fundador > img.fundador{
+        transform: translate(54vw, -130px);
+    }
+
+    main > div#simbolo > section.simbolo > img.simbolo{
+        width: 600px;
+    }
+
+    main > div#simbolo{
+       margin-top: 180px;
+       margin-bottom: 380px;
+    }
+
+    main > div#iframeluf > section#iframeluf > iframe{
+        width: 500px;
+        height: 500px;
+    }
+
+    div#iframeluf{
+        position: relative;
+        margin-top: 270px;
+        margin-bottom: 550px;
+    }
+
+    footer img{
+        width: 120px;
+    }
+
+
+}

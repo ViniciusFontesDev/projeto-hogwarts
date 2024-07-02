@@ -61,3 +61,15 @@ section#iframe{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media screen and (min-width: 420px) {
+    div#iframe{
+        position: relative;
+        margin-top: 185px;
+    }
+
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
