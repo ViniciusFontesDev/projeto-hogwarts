@@ -3,11 +3,6 @@ function escolhido(){
     var img = document.getElementById('imagem')
     var sexo = document.getElementsByName('sexo')
     var casa = document.getElementsByName('casa')
-    switch{
-        case 0:
-    }
-   
-    /*
     if (sexo[0].checked && casa[0].checked){
         //Masc. Grifinória
         msg.innerText = 'Homem da Grifinória!!!'
@@ -49,5 +44,4 @@ function escolhido(){
         img.src = 'escolha/imagem/logolufalufa.png'  
         document.body.style.background = '#FFDB00'
     }
-        */
 }
