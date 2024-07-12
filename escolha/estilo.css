@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+:root{
+    --cor00: #7F0909;
+    --cor01: #FFC500;
+    --cor02: #0D3A2D;
+    --cor03: #8A8A8A;
+    --cor04: #0E1A40;
+    --cor05: #946B2D;
+    --cor06: #FFDB00;
+    --cor07: #000000;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+}
+
+header{
+    text-align: center;
+    background-color: var(--cor04);
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+input#isons{
+    margin-left: 20px;
+}
+
+input#icorv{
+    margin-top: 10px;
+}
+
+input#iluf{
+    margin-top: 10px;
+    margin-left: 29px;
+}
+
+input#ifem{
+    margin-left: 12px;
+}
+
+fieldset#fisx{
+    margin-top: 10px;
+}
+
+input#botao{
+    margin: 15px 0px 10px 0px;
+    padding: 5px 30px;
+}
+
+input#botao:hover{
+    background-color: var(--cor03);
+    transition: background-color .5s;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
