@@ -36,7 +36,8 @@ main{
     background-color: white;
     border-radius: 8px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 input#isons{
@@ -57,7 +58,7 @@ input#ifem{
 }
 
 fieldset#fisx{
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 input#botao{
@@ -73,4 +74,14 @@ input#botao:hover{
 footer{
     text-align: center;
     color: black;
+    background-color: lightblue;
+}
+
+footer > p{
+    padding: 10px;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 15px;
 }

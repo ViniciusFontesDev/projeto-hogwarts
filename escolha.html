@@ -13,6 +13,16 @@
     <main>
         <div>
             <form action="#" method="post" autocomplete="off">
+                
+                <fieldset id="fisx">
+                    <legend>Sexo:</legend>
+                    <input type="radio" name="sexo" id="imas" checked>
+                    <label for="imas">Masculino</label>
+
+                    <input type="radio" name="sexo" id="ifem">
+                    <label for="ifem">Feminino</label>
+                </fieldset>
+                
                 <fieldset>
                     <legend>Escolha sua casa</legend>
                     <input type="radio" name="casa" id="igrif" checked>
@@ -27,20 +37,17 @@
                     <input type="radio" name="casa" id="iluf">
                     <label for="iluf">Lufa-Lufa</label>
                 </fieldset>
-                <fieldset id="fisx">
-                    <legend>Sexo:</legend>
-                    <input type="radio" name="sexo" id="imas" checked>
-                    <label for="imas">Masculino</label>
 
-                    <input type="radio" name="sexo" id="ifem">
-                    <label for="ifem">Feminino</label>
-                </fieldset>
                 <input type="button" value="Enviar" id="botao" onclick="escolhido()">
             </form>
         </div>
-        <div id="res">
+        <div id="msg">
             Preencha os dados acima para ver o resultado!
         </div>
+        <div id="foto">
+            <img id="imagem" src="escolha/imagem/logohogwarts.png" alt="Brasão das 4 casas de Hogwarts">
+        </div>
+
     </main>
     <footer>
         <p>&copy; Vinícius Fontes</p>
